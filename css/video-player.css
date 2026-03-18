@@ -1,0 +1,39 @@
+* {
+     font-family: "Work Sans", sans-serif;
+     font-weight: 300;
+     max: width 1080px;
+     background-color: #ffeef6;
+ }
+
+ .video-player {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 60vh; /* Example: Centers within the full viewport height */
+}
+
+h1 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 40px;
+    color:  #c38bab;
+   font-family: "Playwrite US Trad", cursive;}
+
+.one {
+    text-align: center;
+    
+}
+
+p {
+    font-weight: 250;
+    color: #767475;
+}
+
+h2 {
+    font-weight: 400;
+    color: #767475;
+}
+
+.two {
+    text-align: center;
+}
