@@ -1,0 +1,113 @@
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Start 20px above */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);    /* End at original position */
+  }
+}
+
+
+body {
+  font-family: serif;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(227, 182, 202);
+}
+
+.card {
+  background-color: rgb(244, 200, 207);
+  color:rgb(231, 140, 176);
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 30px solid whitesmoke;
+  box-shadow: 0 4px 8px gray;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.card:hover {
+  background-color: rgb(225, 205, 235);
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "✨ ";
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1::after {
+  content: "✨";
+
+}
+
+.message {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.card-links a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgb(245, 243, 244);
+  border: 5px solid whitesmoke;
+  background-color:  rgb(234, 176, 199);
+  
+  transition: background-color 0.3s ease;
+}
+
+.card-links a:hover {
+  background-color: rgb(186, 147, 219);
+  
+}
+
+.card-links a:active {
+  background-color: whitesmoke;
+  color: rgb(234, 176, 199);
+}
+
+.card-links a:focus {
+  outline: 4px solid rgb(234, 176, 199);
+}
+
+.card-links a:visited {
+  color: crimson;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  color:rgb(234, 176, 199);
+  padding: 20px;
+  border-radius: 10px;
+ display: none; 
+}
+
+section:target {
+  display: block;
+  
+}
+
+section:hover{
+animation: fadeInDown 0.8s ease-out forwards;
+}
