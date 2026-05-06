@@ -1,7 +1,17 @@
+ * {
+    background-color: bisque;
+}
+
 h1 {
     color: rgb(232, 169, 42)
 }
 
-* {
-    background-color: bisque;
+h2 {
+    color: rgb(232, 169, 42)
 }
+
+
+#button {
+    background-color: white;
+}
+
