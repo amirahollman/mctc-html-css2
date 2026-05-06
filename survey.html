@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/survey.css"
+  </head>
+
+  <body>
+<h1 id="title">Are you happy?</h1>
+<p id="description">We want to know your overall happiness from day to day.</p>
+<form id="survey-form">
+  <label id="name-label" for="name">Name: </label>
+  <input id="name" type="text" placeholder="Sarah Crinlker" required>
+
+<input id="email" type="email" placeholder="scrinklr@example.com" required>
+<label id="email-label" for="email">Email: </label>
+
+<label id="number-label">On average, how happy are you?</label>
+<input id="number" type="number" min="0" max="10" placeholder="5">
+
+<select id="dropdown">
+<option>hiking</option>
+<option>jogging</option>
+<option>people watching</option>
+</select>
+
+
+<input type="radio" value="true" name="radio">
+<input type="radio" value="false" name="radio">
+
+<input type="checkbox" value="weekdays">
+<input type="checkbox" value="weekends">
+
+
+<textarea></textarea>
+<button type="submit" id="submit">Submit</button>
+
+</form>
+
+
+  </body>
+</html>
